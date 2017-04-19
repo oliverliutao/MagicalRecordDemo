@@ -11,12 +11,15 @@
 		33739B281E85162300B5DA72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B271E85162300B5DA72 /* AppDelegate.m */; };
 		33739B2B1E85162300B5DA72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33739B2A1E85162300B5DA72 /* ViewController.m */; };
 		33739B2E1E85162300B5DA72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33739B2C1E85162300B5DA72 /* Main.storyboard */; };
-		33739B311E85162300B5DA72 /* TestMagicalRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33739B2F1E85162300B5DA72 /* TestMagicalRecord.xcdatamodeld */; };
 		33739B331E85162300B5DA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33739B321E85162300B5DA72 /* Assets.xcassets */; };
 		33739B361E85162300B5DA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33739B341E85162300B5DA72 /* LaunchScreen.storyboard */; };
+		33739B3E1E85167600B5DA72 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 33739B3D1E85167600B5DA72 /* Podfile */; };
+		33739B471E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33739B441E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodeld */; };
+		87213F65378F81A77AB25A65 /* libPods-TestMagicalRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE10AF42302195F11E9A0281 /* libPods-TestMagicalRecord.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3362BA371E8BB4F20098F005 /* TestMagicalRecord 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TestMagicalRecord 6.xcdatamodel"; sourceTree = "<group>"; };
 		33739B201E85162300B5DA72 /* TestMagicalRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMagicalRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33739B241E85162300B5DA72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33739B261E85162300B5DA72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,10 +27,18 @@
 		33739B291E85162300B5DA72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		33739B2A1E85162300B5DA72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33739B2D1E85162300B5DA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33739B301E85162300B5DA72 /* TestMagicalRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestMagicalRecord.xcdatamodel; sourceTree = "<group>"; };
 		33739B321E85162300B5DA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33739B351E85162300B5DA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33739B371E85162300B5DA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33739B3D1E85167600B5DA72 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33739B451E8531DC00B5DA72 /* TestMagicalRecord 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TestMagicalRecord 2.xcdatamodel"; sourceTree = "<group>"; };
+		33739B461E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestMagicalRecord.xcdatamodel; sourceTree = "<group>"; };
+		33739B481E85320E00B5DA72 /* TestMagicalRecord 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TestMagicalRecord 3.xcdatamodel"; sourceTree = "<group>"; };
+		33739B491E85332500B5DA72 /* TestMagicalRecord 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TestMagicalRecord 4.xcdatamodel"; sourceTree = "<group>"; };
+		33B240641E88BAAA00B21417 /* TestMagicalRecord 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TestMagicalRecord 5.xcdatamodel"; sourceTree = "<group>"; };
+		AA343C4A6E914D63C76E61D4 /* Pods-TestMagicalRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagicalRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagicalRecord/Pods-TestMagicalRecord.release.xcconfig"; sourceTree = "<group>"; };
+		DE10AF42302195F11E9A0281 /* libPods-TestMagicalRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestMagicalRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F312661B695990721DB0B656 /* Pods-TestMagicalRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMagicalRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestMagicalRecord/Pods-TestMagicalRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87213F65378F81A77AB25A65 /* libPods-TestMagicalRecord.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +56,11 @@
 		33739B171E85162300B5DA72 = {
 			isa = PBXGroup;
 			children = (
+				33739B3D1E85167600B5DA72 /* Podfile */,
 				33739B221E85162300B5DA72 /* TestMagicalRecord */,
 				33739B211E85162300B5DA72 /* Products */,
+				41DA6800224E5ABFA01BA242 /* Pods */,
+				EDF4FAC1251C61D1D6B7CD13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,8 +83,8 @@
 				33739B321E85162300B5DA72 /* Assets.xcassets */,
 				33739B341E85162300B5DA72 /* LaunchScreen.storyboard */,
 				33739B371E85162300B5DA72 /* Info.plist */,
-				33739B2F1E85162300B5DA72 /* TestMagicalRecord.xcdatamodeld */,
 				33739B231E85162300B5DA72 /* Supporting Files */,
+				33739B441E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodeld */,
 			);
 			path = TestMagicalRecord;
 			sourceTree = "<group>";
@@ -82,6 +97,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		41DA6800224E5ABFA01BA242 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F312661B695990721DB0B656 /* Pods-TestMagicalRecord.debug.xcconfig */,
+				AA343C4A6E914D63C76E61D4 /* Pods-TestMagicalRecord.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDF4FAC1251C61D1D6B7CD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE10AF42302195F11E9A0281 /* libPods-TestMagicalRecord.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33739B3A1E85162300B5DA72 /* Build configuration list for PBXNativeTarget "TestMagicalRecord" */;
 			buildPhases = (
+				0C798968FE5F06FBEFC3DE0C /* [CP] Check Pods Manifest.lock */,
 				33739B1C1E85162300B5DA72 /* Sources */,
 				33739B1D1E85162300B5DA72 /* Frameworks */,
 				33739B1E1E85162300B5DA72 /* Resources */,
+				BDCA92DC01185EBF5A7E660F /* [CP] Embed Pods Frameworks */,
+				CE37027FCAA346CE1642DDB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,7 +149,7 @@
 					33739B1F1E85162300B5DA72 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = WM73C8378X;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -143,11 +178,60 @@
 			files = (
 				33739B361E85162300B5DA72 /* LaunchScreen.storyboard in Resources */,
 				33739B331E85162300B5DA72 /* Assets.xcassets in Resources */,
+				33739B3E1E85167600B5DA72 /* Podfile in Resources */,
 				33739B2E1E85162300B5DA72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C798968FE5F06FBEFC3DE0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCA92DC01185EBF5A7E660F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagicalRecord/Pods-TestMagicalRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE37027FCAA346CE1642DDB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestMagicalRecord/Pods-TestMagicalRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		33739B1C1E85162300B5DA72 /* Sources */ = {
@@ -157,7 +241,7 @@
 				33739B2B1E85162300B5DA72 /* ViewController.m in Sources */,
 				33739B281E85162300B5DA72 /* AppDelegate.m in Sources */,
 				33739B251E85162300B5DA72 /* main.m in Sources */,
-				33739B311E85162300B5DA72 /* TestMagicalRecord.xcdatamodeld in Sources */,
+				33739B471E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,25 +357,35 @@
 		};
 		33739B3B1E85162300B5DA72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F312661B695990721DB0B656 /* Pods-TestMagicalRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Liu (4R52KHA4S2)";
 				DEVELOPMENT_TEAM = WM73C8378X;
 				INFOPLIST_FILE = TestMagicalRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = OLIVER.TestMagicalRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rings.dt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5a3a44d0-952f-4073-b5ba-1578503c68c4";
+				PROVISIONING_PROFILE_SPECIFIER = RINGS_DT_DEV_PROFILE;
 			};
 			name = Debug;
 		};
 		33739B3C1E85162300B5DA72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA343C4A6E914D63C76E61D4 /* Pods-TestMagicalRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tao Liu (4R52KHA4S2)";
 				DEVELOPMENT_TEAM = WM73C8378X;
 				INFOPLIST_FILE = TestMagicalRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = OLIVER.TestMagicalRecord;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rings.dt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5a3a44d0-952f-4073-b5ba-1578503c68c4";
+				PROVISIONING_PROFILE_SPECIFIER = RINGS_DT_DEV_PROFILE;
 			};
 			name = Release;
 		};
@@ -314,16 +408,22 @@
 				33739B3C1E85162300B5DA72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		33739B2F1E85162300B5DA72 /* TestMagicalRecord.xcdatamodeld */ = {
+		33739B441E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				33739B301E85162300B5DA72 /* TestMagicalRecord.xcdatamodel */,
+				3362BA371E8BB4F20098F005 /* TestMagicalRecord 6.xcdatamodel */,
+				33B240641E88BAAA00B21417 /* TestMagicalRecord 5.xcdatamodel */,
+				33739B491E85332500B5DA72 /* TestMagicalRecord 4.xcdatamodel */,
+				33739B481E85320E00B5DA72 /* TestMagicalRecord 3.xcdatamodel */,
+				33739B451E8531DC00B5DA72 /* TestMagicalRecord 2.xcdatamodel */,
+				33739B461E8531DC00B5DA72 /* TestMagicalRecord.xcdatamodel */,
 			);
-			currentVersion = 33739B301E85162300B5DA72 /* TestMagicalRecord.xcdatamodel */;
+			currentVersion = 3362BA371E8BB4F20098F005 /* TestMagicalRecord 6.xcdatamodel */;
 			path = TestMagicalRecord.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

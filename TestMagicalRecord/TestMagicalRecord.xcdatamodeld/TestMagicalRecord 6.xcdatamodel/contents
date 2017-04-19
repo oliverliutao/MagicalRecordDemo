@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Company" representedClassName="Company" syncable="YES" codeGenerationType="class">
+        <attribute name="companyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="whichOne" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="companyandperson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonInfo" inverseName="personandcompany" inverseEntity="PersonInfo" syncable="YES"/>
+    </entity>
+    <entity name="PersonInfo" representedClassName="PersonInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="myaddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="myage" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="myname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="myweight" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="personandcompany" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Company" inverseName="companyandperson" inverseEntity="Company" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Company" positionX="198" positionY="-252" width="128" height="88"/>
+        <element name="PersonInfo" positionX="-54" positionY="-282" width="128" height="120"/>
+    </elements>
+</model>
